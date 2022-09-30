@@ -33,11 +33,14 @@ const loop = setInterval(() => {
         clearInterval(loop);
     }
     
-    count++;
-    score.innerHTML = `Score: ${count}`
+    count+=0.1
+    score.innerHTML = `Score: ${count.toFixed()}`
 
 
   }, 10);
+
+
+
 
 
 
